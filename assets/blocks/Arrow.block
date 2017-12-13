@@ -1,0 +1,50 @@
+{
+    "displayName": "Arrow Block",
+    "hardness": 3,
+    "tiles" : {
+        "topBottom" : "top",
+        "sides" : "side"
+    },
+    "shape": "engine:cube",
+    "family": "arrow",
+    "no_connections": {
+	    "tiles": {
+	        "topBottom": "top"
+	    }
+    },
+    "left_end": {
+    	"tiles": {
+	        "topBottom": "left_end"
+    	}
+    },
+    "right_end": {
+    	"tiles": {
+	        "topBottom": "right_end"
+    	}
+    },
+    "front_end": {
+	    "tiles": {
+	        "topBottom": "front_end"
+	    }
+    },
+    "back_end": {
+    	"tiles": {
+    		"topBottom": "back_end"
+    	}
+    },
+    "2d_corner": {
+    	"tiles": {
+    		"topBottom": "corner"
+    	}
+    },
+    "2d_t": {
+    	"tiles": {
+    		"topBottom": "t_shape"
+    	}
+    },
+    "cross": {
+    	"tiles": {
+    		"topBottom": "cross"
+    	}
+    }
+}
