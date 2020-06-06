@@ -1,4 +1,4 @@
-# BlockFamilyTutorial
+# TutorialBlockFamily
 This repo is for helping new Terasologists understand the new block family system. The code in this module is completely functional and there is a full walkthrough/tutorial of the code in this repo's [wiki](https://github.com/Terasology/BlockFamilyTutorial/wiki).
 
 # Finished Product
