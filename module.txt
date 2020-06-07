@@ -1,13 +1,10 @@
 {
-    "id" : "BlockFamilyTutorial",
-    "version" : "0.1.1-SNAPSHOT",
-    "author" : "",
-    "displayName" : "BlockFamilyTutorial",
-    "description" : "",
-    "dependencies" : [
-        {
-            "id" : "Core",
-            "minVersion" : "2.0.0"
-        }],
-    "serverSideOnly" : false
+    "id": "TutorialBlockFamily",
+    "version": "0.1.1-SNAPSHOT",
+    "author": "The Terasology Foundation",
+    "displayName": "Tutorial BlockFamily",
+    "description": "A tutorial helping new Terasologists understand the new block family system.",
+    "dependencies": [],
+    "serverSideOnly": false,
+    "isTutorial": true
 }
