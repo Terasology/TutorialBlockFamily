@@ -5,17 +5,17 @@ package org.terasology;
 
 import org.joml.Vector3i;
 import org.joml.Vector3ic;
-import org.terasology.math.Rotation;
-import org.terasology.math.Side;
-import org.terasology.math.SideBitFlag;
-import org.terasology.world.block.Block;
-import org.terasology.world.block.BlockBuilderHelper;
-import org.terasology.world.block.BlockUri;
-import org.terasology.world.block.family.BlockFamily;
-import org.terasology.world.block.family.BlockSections;
-import org.terasology.world.block.family.MultiConnectFamily;
-import org.terasology.world.block.family.RegisterBlockFamily;
-import org.terasology.world.block.loader.BlockFamilyDefinition;
+import org.terasology.engine.math.Rotation;
+import org.terasology.engine.math.Side;
+import org.terasology.engine.math.SideBitFlag;
+import org.terasology.engine.world.block.Block;
+import org.terasology.engine.world.block.BlockBuilderHelper;
+import org.terasology.engine.world.block.BlockUri;
+import org.terasology.engine.world.block.family.BlockFamily;
+import org.terasology.engine.world.block.family.BlockSections;
+import org.terasology.engine.world.block.family.MultiConnectFamily;
+import org.terasology.engine.world.block.family.RegisterBlockFamily;
+import org.terasology.engine.world.block.loader.BlockFamilyDefinition;
 
 @RegisterBlockFamily("arrow")
 @BlockSections({"no_connections", "left_end", "right_end", "front_end", "back_end", "line_connection", "2d_corner",
